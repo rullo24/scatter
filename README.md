@@ -15,4 +15,4 @@ The engine eliminates global mutex locking by leveraging thread-safe POSIX posit
 ## CLI Usage
 
 ```bash
-scatter --src=path/to/large_file.iso --dest=path/to/copy.iso --workers=8 --blocksize=4MB
+scatter --src=path/to/large_file.iso --dest=path/to/copy.iso --workers=8 --block_size=4MB
